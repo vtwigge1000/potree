@@ -1,10 +1,31 @@
-.previewImg {
-	max-width: 100%;
-	max-height: 300px;
-	display: block;
-	margin: 0 auto;
+.body{
+     display: table;
 }
 
-.centerAlign { 
+
+.frameLeft{
+    height: auto;
+    width: 75%;
+    display: table-cell;
     text-align: center;
+    
 }
+
+.frameRight{
+    display: table-cell;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.previewImg {
+    vertical-align: middle;
+    max-height: auto;
+    max-width: 75%;
+}
+
+
+
